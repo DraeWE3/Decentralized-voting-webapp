@@ -1,28 +1,48 @@
-# Decentralized Voting Application
+# Decentralized Voting Website
 
-This is a demo application to implement voting in solidity smart contract using ReactJS. 
+A decentralized voting platform that leverages blockchain technology to ensure secure, transparent, and tamper-proof voting. Built with **React**, **Hardhat**, and **Solidity**, and deployed on the **Sepolia Testnet**.
 
-[Youtube Tutorial](https://youtu.be/eCn6mHTpuM0)
+## Features
+
+- 🗳 **Decentralized Voting**: All votes are securely stored on the Ethereum blockchain.
+- 🔒 **Secure and Transparent**: The use of smart contracts guarantees data integrity and prevents fraud.
+- 🌐 **Wallet Integration**: Users can connect their MetaMask wallet to participate in voting.
+- 🚀 **Responsive Interface**: Built with React, the UI is clean, modern, and user-friendly.
+- 📡 **Testnet Deployment**: Fully functional and live on the Sepolia Testnet.
+- 📡 **Chart.js**: Fully functional chart that displays the progress of contestants.
+
+---
+
+## Tech Stack
+
+### Frontend
+- **React.js**: A JavaScript library for building user interfaces.
+- **CSS/**: For styling and responsiveness.
+
+### Backend
+- **Solidity**: The programming language for Ethereum smart contracts.
+- **Hardhat**: Development framework for Ethereum to compile, deploy, and test smart contracts.
+
+### Deployment
+- **Ethereum Sepolia Testnet**: Deployed smart contracts for testing purposes.
+
+---
+
+## Prerequisites
+
+To run the project locally, you need:
+
+1. **Node.js** (v16+ recommended)
+2. **MetaMask Wallet** (for interaction with the blockchain)
+3. **Hardhat** installed globally or locally within the project.
+
+---
 
 ## Installation
 
-After you cloned the repository, you want to install the packages using
+Follow these steps to set up the project locally:
 
-```shell
-npm install
-```
-
-You first need to compile the contract and upload it to the blockchain network. Run the following commands to compile and upload the contract.
-
-```shell
-npx hardhat compile
-npx hardhat run --network volta scripts/deploy.js
-```
-
-Once the contract is uploaded to the blockchain, copy the contract address and copy it in the .env file. You can also use another blockchain by writing the blockchain's endpoint in hardhat-config.
-
-Once you have pasted your private key and contract address in the .env file, simply run command
-
-```shell
-npm start
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/voting-dapp.git
+   cd voting-dapp
